@@ -236,3 +236,14 @@ span {
     justify-content: space-between;
 }
 
+
+@media print{
+    .intro-section{
+        display: none;
+    }
+
+    .download-btn{
+        display: none;
+    }
+}
+
